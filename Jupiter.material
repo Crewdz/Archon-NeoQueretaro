@@ -1,0 +1,28 @@
+import * from "managed_mats.material"
+
+material Material1: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture Jupiterpolonorte.png
+         }
+      }
+   }
+}
+material Jupierpolosur: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture jupiterpolosur.png
+         }
+      }
+   }
+}

@@ -1,0 +1,6 @@
+crewdzroad.mesh
+1, 1, 1
+beginmesh
+mesh crewdzroad.mesh
+endmesh
+end

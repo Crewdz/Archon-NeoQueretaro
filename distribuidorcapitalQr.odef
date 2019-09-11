@@ -1,0 +1,6 @@
+distribuidorcapitalQr.mesh
+1,1,1
+beginmesh
+mesh distribuidorcapitalQrCol.mesh
+endmesh
+end

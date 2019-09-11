@@ -1,0 +1,5 @@
+NeoQueretaro.raw
+1
+; worldSize, diffusespecular, normalheight, blendmap, blendmapmode, alpha
+8        , grass.dds        ,   grass.dds
+

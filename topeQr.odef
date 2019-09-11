@@ -1,0 +1,6 @@
+topeQr.mesh
+1,0.5,0.5
+beginmesh
+mesh topeQr.mesh
+endmesh
+end

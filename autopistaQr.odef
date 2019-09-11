@@ -1,0 +1,6 @@
+autopistaQr.mesh
+1,1,1
+beginmesh
+mesh autopistaQrCol.mesh
+endmesh
+end

@@ -1,0 +1,22 @@
+[General]
+Name = NeoQueretaro
+GeometryConfig = NeoQueretaro.otc
+Water=0
+WaterLine=8.5
+AmbientColor = 0.93, 0.86, 0.76
+StartPosition = 2440.0, 0.30000000149, 1054.5
+#CaelumConfigFile =
+SandStormCubeMap = Sky/ClubTropicana
+Gravity = -9.81
+#TractionMap = NeoQueretaro-landuse.cfg
+CategoryID = 129
+Version = 2
+GUID = 1e5aa93d-e35f-4279-b2f2-9419310b5210
+ 
+[Authors]
+terrain = Jigsaw
+converting = Klink
+
+ 
+[Objects]
+NeoQueretaro.tobj=

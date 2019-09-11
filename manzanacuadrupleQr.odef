@@ -1,0 +1,6 @@
+manzanacuadrupleQr.mesh
+1,1,1
+beginmesh
+mesh manzanacuadrupleQrCol.mesh
+endmesh
+end

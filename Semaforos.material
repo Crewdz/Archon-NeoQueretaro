@@ -1,0 +1,192 @@
+material luzsecuencia1Qr
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				anim_texture semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforonada1.png semaforoverde1.png semaforonada1.png semaforoverde1.png semaforonada1.png semaforoverde1.png semaforoamarillo1.png semaforoamarillo1.png semaforoamarillo1.png semaforoamarillo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png 45
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				anim_texture semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde1.png semaforoverde1.png semaforoverde.png semaforonada.png semaforoverde.png semaforonada.png semaforoverde.png semaforonada.png semaforoverde1.png semaforoamarillo1.png semaforoamarillo.png semaforoamarillo.png semaforoamarillo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png 45
+			}
+		}
+	}
+}
+material luzsecuencia2Qr
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				anim_texture semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforonada1.png semaforoverde1.png semaforonada1.png semaforoverde1.png semaforonada1.png semaforoverde1.png semaforoamarillo1.png semaforoamarillo1.png semaforoamarillo1.png semaforoamarillo1.png 45
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				anim_texture semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoverde.png semaforonada.png semaforoverde.png semaforonada.png semaforoverde.png semaforonada.png semaforoverde.png semaforoamarillo.png semaforoamarillo.png semaforoamarillo.png semaforoamarillo.png 45
+			}
+		}
+	}
+}
+material luzsecuencia1peaton
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				anim_texture semaforopeatonverde30.png semaforopeatonverde29.png semaforopeatonverde28.png semaforopeatonverde27.png semaforopeatonverde26.png semaforopeatonverde25.png semaforopeatonverde24.png semaforopeatonverde23.png semaforopeatonverde22.png semaforopeatonverde21.png semaforopeatonverde20.png semaforopeatonverde19.png semaforopeatonverde18.png semaforopeatonverde17.png semaforopeatonverde16.png semaforopeatonverde15.png semaforopeatonverde14.png semaforopeatonverde13.png semaforopeatonverde12.png semaforopeatonverde11.png semaforopeatonverde10.png semaforopeatonverde9.png semaforopeatonverde8.png semaforopeatonverde7.png semaforopeatonverde6.png semaforopeatonverde5.png semaforopeatonverde4.png semaforopeatonverde3.png semaforopeatonverde2.png semaforopeatonverde1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonverde35.png semaforopeatonverde34.png semaforopeatonverde33.png semaforopeatonverde32.png semaforopeatonverde31.png 45
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				anim_texture semaforopeatonverde30B.png semaforopeatonverde29B.png semaforopeatonverde28B.png semaforopeatonverde27B.png semaforopeatonverde26B.png semaforopeatonverde25B.png semaforopeatonverde24B.png semaforopeatonverde23B.png semaforopeatonverde22B.png semaforopeatonverde21B.png semaforopeatonverde20B.png semaforopeatonverde19B.png semaforopeatonverde18B.png semaforopeatonverde17B.png semaforopeatonverde16B.png semaforopeatonverde15B.png semaforopeatonverde14B.png semaforopeatonverde13B.png semaforopeatonverde12B.png semaforopeatonverde11B.png semaforopeatonverde10B.png semaforopeatonverde9B.png semaforopeatonverde8B.png semaforopeatonverde7B.png semaforopeatonverde6B.png semaforopeatonverde5B.png semaforopeatonverde4B.png semaforopeatonverde3B.png semaforopeatonverde2B.png semaforopeatonverde1B.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonverde35B.png semaforopeatonverde34B.png semaforopeatonverde33B.png semaforopeatonverde32B.png semaforopeatonverde31B.png 45
+			}
+		}
+	}
+}
+material luzsecuencia2peaton
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				anim_texture semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonrojo1.png semaforopeatonverde35.png semaforopeatonverde34.png semaforopeatonverde33.png semaforopeatonverde32.png semaforopeatonverde31.png semaforopeatonverde30.png semaforopeatonverde29.png semaforopeatonverde28.png semaforopeatonverde27.png semaforopeatonverde26.png semaforopeatonverde25.png semaforopeatonverde24.png semaforopeatonverde23.png semaforopeatonverde22.png semaforopeatonverde21.png semaforopeatonverde20.png semaforopeatonverde19.png semaforopeatonverde18.png semaforopeatonverde17.png semaforopeatonverde16.png semaforopeatonverde15.png semaforopeatonverde14.png semaforopeatonverde13.png semaforopeatonverde12.png semaforopeatonverde11.png semaforopeatonverde10.png semaforopeatonverde9.png semaforopeatonverde8.png semaforopeatonverde7.png semaforopeatonverde6.png semaforopeatonverde5.png semaforopeatonverde4.png semaforopeatonverde3.png semaforopeatonverde2.png semaforopeatonverde1.png 45
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				anim_texture semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonrojo.png semaforopeatonverde35B.png semaforopeatonverde34B.png semaforopeatonverde33B.png semaforopeatonverde32B.png semaforopeatonverde31B.png semaforopeatonverde30B.png semaforopeatonverde29B.png semaforopeatonverde28B.png semaforopeatonverde27B.png semaforopeatonverde26B.png semaforopeatonverde25B.png semaforopeatonverde24B.png semaforopeatonverde23B.png semaforopeatonverde22B.png semaforopeatonverde21B.png semaforopeatonverde20B.png semaforopeatonverde19B.png semaforopeatonverde18B.png semaforopeatonverde17B.png semaforopeatonverde16B.png semaforopeatonverde15B.png semaforopeatonverde14B.png semaforopeatonverde13B.png semaforopeatonverde12B.png semaforopeatonverde11B.png semaforopeatonverde10B.png semaforopeatonverde9B.png semaforopeatonverde8B.png semaforopeatonverde7B.png semaforopeatonverde6B.png semaforopeatonverde5B.png semaforopeatonverde4B.png semaforopeatonverde3B.png semaforopeatonverde2B.png semaforopeatonverde1B.png 45
+			}
+		}
+	}
+}
+material luzsecuenciaX1Qr
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				anim_texture semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoamarillo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png 60
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				anim_texture semafororojo.png semafororojo.png semafororojo.png semafororojo.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoamarillo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png 60
+			}
+		}
+	}
+}
+material luzsecuenciaX2Qr
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				anim_texture semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoamarillo1.png semafororojo1.png semafororojo1.png semafororojo1.png 60
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				anim_texture semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semaforoverde.png semaforoverde.png semaforoverde.png semaforoamarillo.png semafororojo.png semafororojo.png semafororojo.png 60
+			}
+		}
+	}
+}
+material luzsecuenciaX3Qr
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				anim_texture semaforoamarillo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semaforoverde1.png semaforoverde1.png semaforoverde1.png 60
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				anim_texture semaforoamarillo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semaforoverde.png semaforoverde.png semaforoverde.png 60
+			}
+		}
+	}
+}
+material luzsecuenciaX4Qr
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				anim_texture semaforoverde1.png semaforoverde1.png semaforoverde1.png semaforoamarillo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png semafororojo1.png 60
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				anim_texture semaforoverde.png semaforoverde.png semaforoverde.png semaforoamarillo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png semafororojo.png 60
+			}
+		}
+	}
+}

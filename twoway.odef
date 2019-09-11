@@ -1,0 +1,6 @@
+twoway.mesh
+1, 1, 1
+beginmesh
+mesh twoway.mesh
+endmesh
+end

@@ -1,0 +1,6 @@
+fraccionamientoBQr.mesh
+1,1,1
+beginmesh
+mesh fraccionamientoBQrCol.mesh
+endmesh
+end

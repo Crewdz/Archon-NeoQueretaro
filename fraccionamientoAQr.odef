@@ -1,0 +1,6 @@
+fraccionamientoAQr.mesh
+1,1,1
+beginmesh
+mesh fraccionamientoAQrCol.mesh
+endmesh
+end

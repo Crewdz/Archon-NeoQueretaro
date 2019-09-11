@@ -1,0 +1,6 @@
+murrah.mesh
+1, 1, 1
+beginmesh
+mesh murrah.mesh
+endmesh
+end

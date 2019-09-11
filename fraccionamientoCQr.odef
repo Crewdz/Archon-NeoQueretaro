@@ -1,0 +1,6 @@
+fraccionamientoCQr.mesh
+1,1,1
+beginmesh
+mesh fraccionamientoCQrCol.mesh
+endmesh
+end

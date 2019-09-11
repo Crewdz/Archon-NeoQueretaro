@@ -1,0 +1,486 @@
+material estadioconspiradoresQr_black
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0 0.0 0.0 1.0
+         ambient 0.0 0.0 0.0 1.0
+      }
+   }
+}
+material estadioconspiradoresQr_Beige1
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.827450980392157 0.741176470588235 0.564705882352941 1.0
+         ambient 0.827450980392157 0.741176470588235 0.564705882352941 1.0
+      }
+   }
+}
+material estadioconspiradoresQr_Color_B24
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.2 0.137254901960784 0.117647058823529 1.0
+         ambient 0.2 0.137254901960784 0.117647058823529 1.0
+      }
+   }
+}
+material estadioconspiradoresQr_LightGray
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.662745098039216 0.662745098039216 0.662745098039216 1.0
+         ambient 0.662745098039216 0.662745098039216 0.662745098039216 1.0
+      }
+   }
+}
+material estadioconspiradoresQr_0135_DarkGray
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.317647058823529 0.317647058823529 0.317647058823529 1.0
+         ambient 0.317647058823529 0.317647058823529 0.317647058823529 1.0
+      }
+   }
+}
+material estadioconspiradoresQr_96,96,96
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.376470588235294 0.376470588235294 0.376470588235294 1.0
+         ambient 0.376470588235294 0.376470588235294 0.376470588235294 1.0
+      }
+   }
+}
+material estadioconspiradoresQr_jean_blue
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.141176470588235 0.184313725490196 0.258823529411765 1.0
+         ambient 0.141176470588235 0.184313725490196 0.258823529411765 1.0
+      }
+   }
+}
+material estadioconspiradoresQr_Charcoal
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.137254901960784 0.137254901960784 0.137254901960784 1.0
+         ambient 0.137254901960784 0.137254901960784 0.137254901960784 1.0
+      }
+   }
+}
+material estadioconspiradoresQr_auto
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Brick_Antique.jpg
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto1
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture RomaniaRed.png
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto2
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture RomaniaMetal2.jpg
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto3
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture RomaniaGrey.png
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto4
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture RomaniaGasConsole.png
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto5
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture RomaniaLukoil.png
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto6
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Concrete_Form_4x8.jpg
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto7
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture h8iQcrt.jpg
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto8
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture pavimentoestacionamiento.jpg
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto9
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0 0.0 0.0 1.0
+         ambient 0.0 0.0 0.0 1.0
+      }
+   }
+}
+material estadioconspiradoresQr_auto10
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture prado.jpg
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto11
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Cladding_Stucco_White.jpg
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto12
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Cladding_Siding_White.jpg
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto13
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Fencing_Chain_Link.png
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto14
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture pavimento.jpg
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto15
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture ConcreteBare0171_1_download600.jpg
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto16
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.8 0.8 0.8 1.0
+         ambient 0.8 0.8 0.8 1.0
+      }
+   }
+}
+material estadioconspiradoresQr_auto17
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Doors-6.jpg
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto18
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 500px-MUTCD_R1-1.svg[1].png
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto19
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Aluminum_Anodized.jpg
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_auto20
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Wood_Cherry_Original.jpg
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_Color_E01
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 0.0 1.0
+         ambient 1.0 1.0 0.0 1.0
+      }
+   }
+}
+material estadioconspiradoresQr_CE300Body907
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture CE300EDFL1515.png
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_ChassisCE1
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture CEChassis.png
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_CEExtTintedWindow
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         1.0, 1.0
+         diffuse 1 1 1 0.74
+         texture_unit
+         {
+            texture C:/Users/allan/AppData/Local/Temp/VfSTextureCache/CEExtTintedWindow_extractedTex4585.png
+         }
+      }
+   }
+}
+material estadioconspiradoresQr_BodyCE1
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture C:/Users/allan/AppData/Local/Temp/VfSTextureCache/BodyCE1_extractedTex8589.png
+         }
+      }
+   }
+}
+material estadioconspiradoresQr__SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+         ambient 1.0 1.0 1.0
+      }
+   }
+}

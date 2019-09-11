@@ -1,0 +1,6 @@
+luminariaQr.mesh
+1,1,1
+beginmesh
+mesh luminariaQrCol.mesh
+endmesh
+end

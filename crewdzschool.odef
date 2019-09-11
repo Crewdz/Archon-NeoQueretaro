@@ -1,0 +1,6 @@
+crewdzschool.mesh
+1, 1, 1
+beginmesh
+mesh crewdzschool.mesh
+endmesh
+end

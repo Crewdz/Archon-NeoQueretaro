@@ -1,0 +1,2053 @@
+import * from "managed_mats.material"
+
+material ventanas1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture ventanas1A.png
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+                  scene_blend alpha_blend
+                  texture_unit
+			{
+				texture ventanas1.png
+		            tex_address_mode wrap
+		            filtering trilinear
+		            colour_op alpha_blend
+                  }
+			texture_unit
+			{
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+			}
+		}
+	}
+}
+material ventanas2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture ventanas2A.png
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+                  scene_blend alpha_blend
+                  texture_unit
+			{
+				texture ventanas2.png
+		            tex_address_mode wrap
+		            filtering trilinear
+		            colour_op alpha_blend
+                  }
+			texture_unit
+			{
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+			}
+		}
+	}
+}
+material ventanas3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture ventanasA3.png
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+                  scene_blend alpha_blend
+                  texture_unit
+			{
+				texture ventanas3.png
+		            tex_address_mode wrap
+		            filtering trilinear
+		            colour_op alpha_blend
+                  }
+			texture_unit
+			{
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+			}
+		}
+	}
+}
+material ventanas4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture ventanasA4.png
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+                  scene_blend alpha_blend
+                  texture_unit
+			{
+				texture ventanas4.png
+		            tex_address_mode wrap
+		            filtering trilinear
+		            colour_op alpha_blend
+                  }
+			texture_unit
+			{
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+			}
+		}
+	}
+}
+material ventanas5
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture ventanasA5.png
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+                  scene_blend alpha_blend
+                  texture_unit
+			{
+				texture ventanas5.png
+		            tex_address_mode wrap
+		            filtering trilinear
+		            colour_op alpha_blend
+                  }
+			texture_unit
+			{
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+			}
+		}
+	}
+}
+material ventanas6
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture ventanasA6.png
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+                  scene_blend alpha_blend
+                  texture_unit
+			{
+				texture ventanas6.png
+		            tex_address_mode wrap
+		            filtering trilinear
+		            colour_op alpha_blend
+                  }
+			texture_unit
+			{
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+			}
+		}
+	}
+}
+material ventanas7
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture ventanas7A.png
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+                  scene_blend alpha_blend
+                  texture_unit
+			{
+				texture ventanas7.png
+		            tex_address_mode wrap
+		            filtering trilinear
+		            colour_op alpha_blend
+                  }
+			texture_unit
+			{
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+			}
+		}
+	}
+}
+material colegioporfiriocadenaventanas1: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+                        texture colegioporfiriocadenaventanas1.jpg
+                  }
+ 	            texture_unit Diffuse_Map
+		      {
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+			}
+		}
+	}
+}
+material colegioporfiriocadenaventanas2: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+                        texture colegioporfiriocadenaventanas2.jpg
+                  }
+ 	            texture_unit Diffuse_Map
+		      {
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+
+			}
+		}
+	}
+}
+material cristalesestadio: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture crstalesestadio.jpg
+		            tex_address_mode wrap
+		            filtering trilinear
+		            colour_op alpha_blend
+                  }
+			texture_unit Diffuse_Map
+			{
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+			}
+		}
+	}
+}
+material agua
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         787.40157480315, 787.40157480315
+         diffuse 1 1 1 0.5
+         texture_unit
+         {
+            texture agua.jpg
+         }
+      }
+   }
+}
+material transitotope: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture transitotope.png
+		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+         }
+      }
+   }
+}
+
+material Color_006
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.34 0.34 0.34 1.0
+         ambient 0.34 0.34 0.34 1.0
+      }
+   }
+}
+material Color_007
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.23 0.23 0.23 1.0
+         ambient 0.23 0.23 0.23 1.0
+      }
+   }
+}
+material parabus
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				//texture parabus.png
+				cubic_texture EnvironmentTexture combinedUVW
+				env_map planar 
+			}
+		}
+	}
+}
+material topeQr: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture tope.png
+         }
+      }
+   }
+}
+material parabusasientos: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture parabusasientos.png
+         }
+      }
+   }
+}
+material prado: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture prado.jpg
+         }
+      }
+   }
+}
+material pavimento: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture pavimento.jpg
+         }
+      }
+   }
+}
+material luminariaQrposte: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture luminariaQrposte.jpg
+         }
+      }
+   }
+}
+material luminariaQrbase: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture luminariaQrbase.jpg
+         }
+      }
+   }
+}
+material luminariaQrlampara: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture luminariaQrlampara.jpg
+         }
+      }
+   }
+}
+material luminariaQrluz: RoR/Managed_Mats/Transparent
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+	   scene_blend add
+	   depth_write off
+	   lighting off
+	   texture_unit Diffuse_Map
+         {
+            texture luminariaQrluz.jpg
+         }
+      }
+   }
+}
+material puente: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture puente.png
+         }
+      }
+   }
+}
+material pavimento4vias: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture pavimento4carriles.png
+         }
+      }
+   }
+}
+material prefabricados: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture prefabricados.png
+         }
+      }
+   }
+}
+
+material curvasimple: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture curvasimple.jpg
+         }
+      }
+   }
+}
+material crucesimple: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture crucesimple.jpg
+         }
+      }
+   }
+}
+material cruceplano: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture cruce.jpg
+         }
+      }
+   }
+}
+material crucemixto: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture crucemixto.jpg
+         }
+      }
+   }
+}
+material colegioporfiriocadenamonolito: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture colegioporfiriocadenamonolito.jpg
+         }
+      }
+   }
+}
+
+material asfalto4vias: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture pavimento4carriles.jpg
+         }
+      }
+   }
+}
+material concreto: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture concreto.png
+         }
+      }
+   }
+}
+material concretoconpasto: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture concretoconpasto.jpg
+         }
+      }
+   }
+}
+material curva: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture curva.png
+         }
+      }
+   }
+}
+material astabandera: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture luminariaQrposte.jpg
+         }
+      }
+   }
+}
+material baseastabandera: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture luminariaQrbase.jpg
+         }
+      }
+   }
+}
+material bandera: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture banderademexico.jpg
+         }
+      }
+   }
+}
+material arbol3: RoR/Managed_Mats/Vegetation
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+	   scene_blend alpha_blend
+         texture_unit Diffuse_Map
+         {
+            texture arbol3.png
+         }
+      }
+   }
+}
+material arbol2: RoR/Managed_Mats/Vegetation
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+	   scene_blend alpha_blend
+         texture_unit Diffuse_Map
+         {
+            texture arbol2.png
+         }
+      }
+   }
+}
+material arbol1: RoR/Managed_Mats/Vegetation
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+	   scene_blend alpha_blend
+         texture_unit Diffuse_Map
+         {
+            texture arbol1.png
+         }
+      }
+   }
+}
+material adocretos: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture adocretos.png
+         }
+      }
+   }
+}
+material ventanascereso: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture ventanascereso.jpg
+         }
+      }
+   }
+}
+material puertacereso: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture puertacereso.jpg
+         }
+      }
+   }
+}
+material piedra: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture piedra.jpg
+         }
+      }
+   }
+}
+material gente: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture multitud.jpg
+		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+         }
+      }
+   }
+}
+material rojotexturizado: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture rojotexturizado.jpg
+         }
+      }
+   }
+}
+material cancha: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture canchadefutbol.jpg
+		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+         }
+      }
+   }
+}
+material incrustacionesdegranitoobscuro2: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture incrustacionesdegranitoobscuro2.jpg
+         }
+      }
+   }
+}
+material marmolina: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture plafonmarmolina.jpg
+		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+         }
+      }
+   }
+}
+material azulejodemotivodemarmol: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture azulejodemotivodemarmol.jpg
+		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+         }
+      }
+   }
+}
+material granitoflameado: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture granitoflameado.jpg
+         }
+      }
+   }
+}
+material granitogrisobscuro: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture granitogrisobscuro.jpg
+         }
+      }
+   }
+}
+material estacionamiento: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture pavimentoestacionamiento.jpg
+         }
+      }
+   }
+}
+material logotiposplaza: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture logosplaza.jpg
+		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+         }
+      }
+   }
+}
+material cristalgrisobscuro
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend alpha_blend
+                  cull_hardware none
+			texture_unit
+			{
+				texture cristalgrisobscuro.png
+		            tex_address_mode wrap
+		            filtering trilinear
+		            colour_op alpha_blend
+                  }
+			texture_unit
+			{
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+			}
+		}
+	}
+}
+material imagenparabus: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture parabusimagenlateral.jpg
+		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+         }
+      }
+   }
+}
+material pisodemarmol: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture pisoconmotivosdemarmol.jpg
+		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+         }
+      }
+   }
+}
+material ccletras: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture centrocivicoletras.jpg
+		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+         }
+      }
+   }
+}
+material Color_005
+{
+   technique
+   {
+      pass
+      {
+         cull_hardware none
+         diffuse 0.45 0.45 0.45 1.0
+         ambient 0.45 0.45 0.45 1.0
+      }
+   }
+}
+material B_OGT: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture bancoletras.jpg
+		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+         }
+      }
+   }
+}
+material cccNQletras: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture cccnqletras.jpg
+		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+         }
+      }
+   }
+}
+material hotelneoqueretaroletras: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture hotelneoqueretaroletras.jpg
+		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+         }
+      }
+   }
+}
+material DPNQ: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture departamentodepolicia.jpg
+		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+         }
+      }
+   }
+}
+material hcb: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture HCB.jpg
+		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+         }
+      }
+   }
+}
+material telefonopublico
+{
+   technique
+   {
+      pass
+      {
+	   alpha_rejection greater 128
+	   scene_blend alpha_blend
+         cull_hardware none
+	   texture_unit
+         {
+            texture telefonopublico.png
+         }
+      }
+   }
+}
+material logodepemex1: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture Pemex.jpg
+		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+         }
+      }
+   }
+}
+material logodepemex2: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture logospemex.jpg
+ 		tex_address_mode wrap
+		filtering trilinear
+		colour_op alpha_blend
+        }
+      }
+   }
+}
+material Color_G17
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0785 0.4 0.0785 1.0
+         ambient 0.0785 0.4 0.0785 1.0
+         texture_unit
+      }
+   }
+}
+material Color_A11
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.6 0.0 0.0 1.0
+         ambient 0.6 0.0 0.0 1.0
+      }
+   }
+}
+material fachadadeoxxo
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture oxxofachada.jpg
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				texture oxxofachadaencendida.png
+			}
+		}
+	}
+}
+material bombadegasolinera
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture bombapemex.jpg
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				texture bombapemexencendida.png
+			}
+		}
+	}
+}
+material tiendas
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture fachadasdetiendas.jpg
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				texture fachadasdetiendasencendidas.png
+			}
+		}
+	}
+}
+material transportepublico: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture bus.jpeg
+	      tex_address_mode wrap
+	      filtering trilinear
+	      colour_op alpha_blend
+         }
+      }
+   }
+}
+material paradadeautobus
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 128
+			texture_unit
+			{
+				texture paradadeautobus.png
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			texture_unit
+			{
+				texture paradadeautobusencendida.png
+	                  tex_address_mode wrap
+	                  filtering trilinear
+	                  colour_op alpha_blend
+			}
+		}
+	}
+}
+material Wreckmastertowinglogo: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture Wreckmastertowinglogo.jpg
+	      tex_address_mode wrap
+	      filtering trilinear
+	      colour_op alpha_blend
+         }
+      }
+   }
+}
+material incrustacionesdegranito: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture incrustacionesdegranito.jpg
+         }
+      }
+   }
+}
+material ventanasWreckmaster: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture ventanasWreckmaster.jpg
+			}
+			texture_unit Diffuse_Map
+			{
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+			}
+		}
+	}
+}
+material frasewreckmaster: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture fraseWreckmaster.jpg
+	      tex_address_mode wrap
+	      filtering trilinear
+	      colour_op alpha_blend
+         }
+      }
+   }
+}
+material BRTlogo: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture logobrt.png
+	      tex_address_mode wrap
+	      filtering trilinear
+	      colour_op alpha_blend
+         }
+      }
+   }
+}
+material 5defebreroconconstituyentes: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture 5defebreroconconstituyentes.jpg
+         }
+      }
+   }
+}
+material constituyentescon5defebrero: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture constituyentescon5defebrero.jpg
+         }
+      }
+   }
+}
+material ezequielmontescon5defebrero: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture ezequielmontezcon5defebrero.jpg
+         }
+      }
+   }
+}
+material 5defebreroconezequielmontes: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture 5defebreroconezequielmontez.jpg
+         }
+      }
+   }
+}
+material constituyentesconcorregidora: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture contituyentesconcorregidora.jpg
+         }
+      }
+   }
+}
+material corregidoraconconstituyentes: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture corregidoraconconstituyentes.jpg
+         }
+      }
+   }
+}
+material corregidoraconezequielmontes: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture corregidoraconezequielmontez.jpg
+         }
+      }
+   }
+}
+material ezequielmontesconcorregidora: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture ezequielmontezconcorregidora.jpg
+         }
+      }
+   }
+}
+material mapa: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture mapa.png
+         }
+      }
+   }
+}
+material semaforogris3: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+                     texture semaforogris.png
+			}
+			texture_unit
+			{
+				cubic_texture EnvironmentTexture combinedUVW
+				env_map planar 
+			}
+		}
+	}
+}
+material semaforogris: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture semaforogris.png
+         }
+      }
+   }
+}
+material semaforogris1: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture semaforogris1.png
+         }
+      }
+   }
+}
+material semaforogris2: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture semaforogris2.png
+         }
+      }
+   }
+}
+material precaucion: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture precaucion.png
+         }
+      }
+   }
+}
+material concretogris: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture detalle-concreto-gris.jpg
+         }
+      }
+   }
+}
+material concretorojo: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture detalle-concreto-rojo.jpg
+         }
+      }
+   }
+}
+material ventanascasadeIS: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture ventana.png
+		            tex_address_mode wrap
+		            filtering trilinear
+		            colour_op alpha_blend
+                  }
+			texture_unit Diffuse_Map
+			{
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+			}
+		}
+	}
+}
+material concretoazul: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture detalle-concreto-azul.jpg
+         }
+      }
+   }
+}
+material concretoverde: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture detalle-concreto-verde.jpg
+         }
+      }
+   }
+}
+material concretomorado: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture detalle-concreto-morado.jpg
+         }
+      }
+   }
+}
+material concretorojo: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture detalle-concreto-rojo.jpg
+         }
+      }
+   }
+}
+material concretovioleta: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture detalle-concreto-violeta.jpg
+         }
+      }
+   }
+}
+material concretocafe: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture detalle-concreto-cafe.jpg
+         }
+      }
+   }
+}
+material puertademadera: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture puertademadera.jpg
+         }
+      }
+   }
+}
+material arsilla: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+         texture_unit Diffuse_Map
+         {
+            texture arsilla.jpg
+         }
+      }
+   }
+}
+material alumbradopublico
+{
+	technique
+	{
+		pass
+		{
+                  cull_hardware none
+			texture_unit
+			{
+				texture luminariaconboteparabasura.png
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				texture luminariaconboteparabasuraluz.png
+			}
+		}
+	}
+}
+material seldasolar: RoR/Managed_Mats/Base
+{
+	   technique BaseTechnique
+	   {
+		   pass BaseRender
+		   {			   
+			texture_unit Diffuse_Map
+			{
+				texture seldasolar.jpg
+			}
+			texture_unit Diffuse_Map
+			{
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+			}
+		}
+	}
+}
+material mallaciclonica: RoR/Managed_Mats/Transparent
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture rejas.png
+         }
+      }
+   }
+}
+material logoford: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture fordlogo.jpg
+	      tex_address_mode wrap
+	      filtering trilinear
+	      colour_op alpha_blend
+         }
+      }
+   }
+}
+material ficus1: RoR/Managed_Mats/Vegetation
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture ficus1.png
+         }
+      }
+   }
+}
+material ficus2: RoR/Managed_Mats/Vegetation
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture ficus2.png
+         }
+      }
+   }
+}
+material ficus3: RoR/Managed_Mats/Vegetation
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture ficus3.png
+         }
+      }
+   }
+}
+material ficus4: RoR/Managed_Mats/Vegetation
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture ficus4.png
+         }
+      }
+   }
+}
+material ficus5: RoR/Managed_Mats/Vegetation
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture ficus5.png
+         }
+      }
+   }
+}
+material ficus6: RoR/Managed_Mats/Vegetation
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture ficus6.png
+         }
+      }
+   }
+}
+material cercado: RoR/Managed_Mats/Transparent
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture mallaciclonica.png
+         }
+      }
+   }
+}
+material polonorte
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 128
+                  scene_blend alpha_blend
+                  depth_check on
+                  depth_write off
+                  393.700787401575, 187.953200765159
+                  diffuse 1 1 1 0.90
+                  texture_unit
+			{
+				texture proyeccionpolarnorte.png
+                  }
+			texture_unit
+			{
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+			}
+		}
+	}
+}
+material polosur
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 128
+                  scene_blend alpha_blend
+                  depth_check on
+                  depth_write off
+                  393.700787401575, 187.953200765159
+                  diffuse 1 1 1 0.90
+                  texture_unit
+			{
+				texture proyeccionpolarsur.png
+                  }
+			texture_unit
+			{
+                        texture Cielo.jpg
+		            color_op_ex blend_manual src_texture src_current 0.1
+		            env_map planar
+			}
+		}
+	}
+}
+material calledoblesentido: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture calledoblesentido.jpg
+         }
+      }
+   }
+}
+material calleunsolosentido: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture calleunsolosentido.jpg
+         }
+      }
+   }
+}
+material calleestrecha: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture calleestrecha.jpg
+         }
+      }
+   }
+}
+material reductordevelocidadtope
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture reductordevelocidad.jpg
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				texture reductordevelocidad.png
+			}
+		}
+	}
+}
+material crucepeatonalQr
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture crucepeatonal.jpg
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				texture crucepeatonal.png
+			}
+		}
+	}
+}
+material pista: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+            texture pistaaeropuerto.jpg
+         }
+      }
+   }
+}
+material limitedevelocidad60
+{
+     technique
+     {
+           pass
+           {
+                texture_unit
+                {
+                     texture limitedevelocidad60.png
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				texture limitedevelocidad60.png
+			}
+		}
+	}
+}
+material limitedevelocidad40
+{
+     technique
+     {
+           pass
+           {
+                texture_unit
+                {
+                     texture limitedevelocidad40.png
+			}
+		}
+		pass
+		{
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				texture limitedevelocidad40.png
+			}
+		}
+	}
+}
+material luzantenacccnq
+{
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			alpha_rejection greater 128
+			scene_blend add
+			texture_unit
+			{
+				texture luzantenaapagada.png			           }
+		}
+		pass
+		{
+			cull_hardware none
+			alpha_rejection greater 128
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				anim_texture luzantenaencendida.png luzantenaapagada.png luzantenaencendida.png luzantenaapagada.png luzantenaapagada.png luzantenaapagada.png luzantenaapagada.png luzantenaapagada.png luzantenaapagada.png luzantenaapagada.png 2
+			}
+		}
+	}
+}

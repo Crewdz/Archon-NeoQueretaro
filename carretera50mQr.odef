@@ -1,0 +1,6 @@
+carretera50mQr.mesh
+1,1,1
+beginmesh
+mesh carretera50mQr.mesh
+endmesh
+end

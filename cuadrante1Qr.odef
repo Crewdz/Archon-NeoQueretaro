@@ -1,0 +1,6 @@
+cuadrante1Qr.mesh
+1,1,1
+beginmesh
+mesh cuadrante1QrCol.mesh
+endmesh
+end

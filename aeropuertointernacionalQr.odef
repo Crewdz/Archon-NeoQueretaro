@@ -1,0 +1,6 @@
+aeropuertointernacionalQr.mesh
+1,1,1
+beginmesh
+mesh aeropuertoQrCol.mesh
+endmesh
+end

@@ -1,0 +1,6 @@
+crucesimpletQr.mesh
+1,1,1
+beginmesh
+mesh crucesimpletQrCol.mesh
+endmesh
+end
