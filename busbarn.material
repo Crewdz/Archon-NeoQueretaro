@@ -1,0 +1,660 @@
+material busbarn_black
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0 0.0 0.0 1.0
+         ambient 0.0 0.0 0.0 1.0
+      }
+   }
+}
+material busbarn_Beige1
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.827450980392157 0.741176470588235 0.564705882352941 1.0
+         ambient 0.827450980392157 0.741176470588235 0.564705882352941 1.0
+      }
+   }
+}
+material busbarn_Color_B24
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.2 0.137254901960784 0.117647058823529 1.0
+         ambient 0.2 0.137254901960784 0.117647058823529 1.0
+      }
+   }
+}
+material busbarn_LightGray
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.662745098039216 0.662745098039216 0.662745098039216 1.0
+         ambient 0.662745098039216 0.662745098039216 0.662745098039216 1.0
+      }
+   }
+}
+material busbarn_0135_DarkGray
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.317647058823529 0.317647058823529 0.317647058823529 1.0
+         ambient 0.317647058823529 0.317647058823529 0.317647058823529 1.0
+      }
+   }
+}
+material busbarn_96,96,96
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.376470588235294 0.376470588235294 0.376470588235294 1.0
+         ambient 0.376470588235294 0.376470588235294 0.376470588235294 1.0
+      }
+   }
+}
+material busbarn_jean_blue
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.141176470588235 0.184313725490196 0.258823529411765 1.0
+         ambient 0.141176470588235 0.184313725490196 0.258823529411765 1.0
+      }
+   }
+}
+material busbarn_Charcoal
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.137254901960784 0.137254901960784 0.137254901960784 1.0
+         ambient 0.137254901960784 0.137254901960784 0.137254901960784 1.0
+      }
+   }
+}
+material busbarn_CE300Body907
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture CE300EDFL1515.png
+         }
+      }
+   }
+}
+material busbarn_ChassisCE1
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture CEChassis.png
+         }
+      }
+   }
+}
+material busbarn_CEExtTintedWindow
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         1.0, 1.0
+         diffuse 1 1 1 0.74
+         texture_unit
+         {
+            texture C:/Users/allan/AppData/Local/Temp/VfSTextureCache/CEExtTintedWindow_extractedTex4585.png
+         }
+      }
+   }
+}
+material busbarn_BodyCE1
+{
+   technique
+   {
+      pass
+      {
+         1.0, 1.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture C:/Users/allan/AppData/Local/Temp/VfSTextureCache/BodyCE1_extractedTex8589.png
+         }
+      }
+   }
+}
+material busbarn_Color_001
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.886274509803922 0.886274509803922 0.886274509803922 1.0
+         ambient 0.886274509803922 0.886274509803922 0.886274509803922 1.0
+      }
+   }
+}
+material busbarn_Color_006
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.337254901960784 0.337254901960784 0.337254901960784 1.0
+         ambient 0.337254901960784 0.337254901960784 0.337254901960784 1.0
+      }
+   }
+}
+material busbarn_Color_002
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.776470588235294 0.776470588235294 0.776470588235294 1.0
+         ambient 0.776470588235294 0.776470588235294 0.776470588235294 1.0
+      }
+   }
+}
+material busbarn_Color_008
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.117647058823529 0.117647058823529 0.117647058823529 1.0
+         ambient 0.117647058823529 0.117647058823529 0.117647058823529 1.0
+      }
+   }
+}
+material busbarn_Color_005
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.447058823529412 0.447058823529412 0.447058823529412 1.0
+         ambient 0.447058823529412 0.447058823529412 0.447058823529412 1.0
+      }
+   }
+}
+material busbarn_Tile_Travertine_2inch
+{
+   technique
+   {
+      pass
+      {
+         15.0, 15.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Tile_Travertine_2inch.jpg
+         }
+      }
+   }
+}
+material busbarn_Asphalt_New
+{
+   technique
+   {
+      pass
+      {
+         12.0, 12.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Asphalt_New.jpg
+         }
+      }
+   }
+}
+material busbarn_Cladding_Stucco_White
+{
+   technique
+   {
+      pass
+      {
+         18.0, 27.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Cladding_Stucco_White.jpg
+         }
+      }
+   }
+}
+material busbarn_Color_004
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.556862745098039 0.556862745098039 0.556862745098039 1.0
+         ambient 0.556862745098039 0.556862745098039 0.556862745098039 1.0
+      }
+   }
+}
+material busbarn_Color_003
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.666666666666667 0.666666666666667 0.666666666666667 1.0
+         ambient 0.666666666666667 0.666666666666667 0.666666666666667 1.0
+      }
+   }
+}
+material busbarn_Metal_Corrogated_Shiny
+{
+   technique
+   {
+      pass
+      {
+         4.0, 4.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Corrogated_Shiny.jpg
+         }
+      }
+   }
+}
+material busbarn_Metal_Steel_Textured
+{
+   technique
+   {
+      pass
+      {
+         24.0, 24.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Steel_Textured.jpg
+         }
+      }
+   }
+}
+material busbarn_Metal_Rough
+{
+   technique
+   {
+      pass
+      {
+         8.0, 8.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Rough.jpg
+         }
+      }
+   }
+}
+material busbarn__Asphalt_New_
+{
+   technique
+   {
+      pass
+      {
+         5540.32850633087, 2274.06501791456
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture _Asphalt_New_.jpg
+         }
+      }
+   }
+}
+material busbarn__Metal_Corrogated_Shiny_
+{
+   technique
+   {
+      pass
+      {
+         5541.32342010203, 381.444866841157
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture _Metal_Corrogated_Shiny_.jpg
+         }
+      }
+   }
+}
+material busbarn__Asphalt_New_#1
+{
+   technique
+   {
+      pass
+      {
+         160.629294351941, 1165.08853690164
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture _Asphalt_New_.jpg
+         }
+      }
+   }
+}
+material busbarn__Asphalt_New_#2
+{
+   technique
+   {
+      pass
+      {
+         161.184580980165, 1165.70186304536
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture _Asphalt_New_.jpg
+         }
+      }
+   }
+}
+material busbarn_Concrete_Block_8x8_Gray
+{
+   technique
+   {
+      pass
+      {
+         48.0, 48.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Concrete_Block_8x8_Gray.jpg
+         }
+      }
+   }
+}
+material busbarn_Concrete_Form_4x8
+{
+   technique
+   {
+      pass
+      {
+         48.0, 96.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Concrete_Form_4x8.jpg
+         }
+      }
+   }
+}
+material busbarn_Concrete_Scored_Jointless
+{
+   technique
+   {
+      pass
+      {
+         26.0, 26.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Concrete_Scored_Jointless.jpg
+         }
+      }
+   }
+}
+material busbarn_Concrete_Block_Layers
+{
+   technique
+   {
+      pass
+      {
+         16.0, 10.666667
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Concrete_Block_Layers.jpg
+         }
+      }
+   }
+}
+material busbarn_Concrete_Aggregate_Smoke
+{
+   technique
+   {
+      pass
+      {
+         12.0, 12.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Concrete_Aggregate_Smoke.jpg
+         }
+      }
+   }
+}
+material busbarn_Asphalt_Stamped_Brick
+{
+   technique
+   {
+      pass
+      {
+         8.0, 16.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Asphalt_Stamped_Brick.jpg
+         }
+      }
+   }
+}
+material busbarn_Cladding_Siding_White
+{
+   technique
+   {
+      pass
+      {
+         38.0, 38.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Cladding_Siding_White.jpg
+         }
+      }
+   }
+}
+material busbarn_Brick_Basket_Two
+{
+   technique
+   {
+      pass
+      {
+         32.0, 32.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Brick_Basket_Two.jpg
+         }
+      }
+   }
+}
+material busbarn_Brick_Tumbled
+{
+   technique
+   {
+      pass
+      {
+         36.0, 18.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Brick_Tumbled.jpg
+         }
+      }
+   }
+}
+material busbarn_Blinds_Cellular_White
+{
+   technique
+   {
+      pass
+      {
+         18.0, 18.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Blinds_Cellular_White.jpg
+         }
+      }
+   }
+}
+material busbarn_Carpet_Berber_Pattern_Gray
+{
+   technique
+   {
+      pass
+      {
+         10.0, 10.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Carpet_Berber_Pattern_Gray.jpg
+         }
+      }
+   }
+}
+material busbarn_Metal_Seamed
+{
+   technique
+   {
+      pass
+      {
+         18.0, 18.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Seamed.jpg
+         }
+      }
+   }
+}
+material busbarn_Stone_Vein_Gray
+{
+   technique
+   {
+      pass
+      {
+         48.0, 48.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Stone_Vein_Gray.jpg
+         }
+      }
+   }
+}
+material busbarn_Groundcover_BarkChips
+{
+   technique
+   {
+      pass
+      {
+         12.0, 12.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Groundcover_BarkChips.jpg
+         }
+      }
+   }
+}
+material busbarn_Color_D02
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 0.8 0.196078431372549 1.0
+         ambient 1.0 0.8 0.196078431372549 1.0
+      }
+   }
+}
+material busbarn_Color_J07
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.47843137254902 0.156862745098039 0.8 1.0
+         ambient 0.47843137254902 0.156862745098039 0.8 1.0
+      }
+   }
+}
+material busbarn_Color_J03
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.698039215686274 0.396078431372549 1.0 1.0
+         ambient 0.698039215686274 0.396078431372549 1.0 1.0
+      }
+   }
+}
+material busbarn_Color_J06
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.4 0.0 0.8 1.0
+         ambient 0.4 0.0 0.8 1.0
+      }
+   }
+}
+material busbarn_Color_I25
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.156862745098039 0.156862745098039 0.2 1.0
+         ambient 0.156862745098039 0.156862745098039 0.2 1.0
+      }
+   }
+}
+material busbarn__SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+         ambient 1.0 1.0 1.0
+      }
+   }
+}
