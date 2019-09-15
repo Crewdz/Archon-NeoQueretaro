@@ -155,48 +155,14 @@ material crewdzschool_BodyCE1
       }
    }
 }
-material crewdzschool_Brick_Pavers_Herringbone
+material crewdzschool_Color_009
 {
    technique
    {
       pass
       {
-         12.0, 12.0
-         diffuse 1 1 1 1.0
-         texture_unit
-         {
-            texture Brick_Pavers_Herringbone.jpg
-         }
-      }
-   }
-}
-material crewdzschool_Cladding_Siding_Tan
-{
-   technique
-   {
-      pass
-      {
-         30.0, 30.0
-         diffuse 1 1 1 1.0
-         texture_unit
-         {
-            texture Cladding_Siding_Tan.jpg
-         }
-      }
-   }
-}
-material crewdzschool_Cladding_Stucco_White
-{
-   technique
-   {
-      pass
-      {
-         18.0, 27.0
-         diffuse 1 1 1 1.0
-         texture_unit
-         {
-            texture Cladding_Stucco_White.jpg
-         }
+         diffuse 0.0 0.0 0.0 1.0
+         ambient 0.0 0.0 0.0 1.0
       }
    }
 }
@@ -211,40 +177,14 @@ material crewdzschool_Color_008
       }
    }
 }
-material crewdzschool_Color_006
+material crewdzschool_Color_D01
 {
    technique
    {
       pass
       {
-         diffuse 0.337254901960784 0.337254901960784 0.337254901960784 1.0
-         ambient 0.337254901960784 0.337254901960784 0.337254901960784 1.0
-      }
-   }
-}
-material crewdzschool_Concrete_Aggregate_Smoke
-{
-   technique
-   {
-      pass
-      {
-         12.0, 12.0
-         diffuse 1 1 1 1.0
-         texture_unit
-         {
-            texture Concrete_Aggregate_Smoke.jpg
-         }
-      }
-   }
-}
-material crewdzschool_Color_007
-{
-   technique
-   {
-      pass
-      {
-         diffuse 0.227450980392157 0.227450980392157 0.227450980392157 1.0
-         ambient 0.227450980392157 0.227450980392157 0.227450980392157 1.0
+         diffuse 1.0 0.749019607843137 0.0 1.0
+         ambient 1.0 0.749019607843137 0.0 1.0
       }
    }
 }
@@ -259,36 +199,6 @@ material crewdzschool_Color_000
       }
    }
 }
-material crewdzschool_[Concrete_Aggregate_Smoke]1
-{
-   technique
-   {
-      pass
-      {
-         12.0, 12.0
-         diffuse 1 1 1 1.0
-         texture_unit
-         {
-            texture Concrete_Aggregate_Smoke.jpg
-         }
-      }
-   }
-}
-material crewdzschool_[Cladding_Stucco_White]1
-{
-   technique
-   {
-      pass
-      {
-         18.0, 27.0
-         diffuse 1 1 1 1.0
-         texture_unit
-         {
-            texture Cladding_Stucco_White.jpg
-         }
-      }
-   }
-}
 material crewdzschool_Color_005
 {
    technique
@@ -300,36 +210,14 @@ material crewdzschool_Color_005
       }
    }
 }
-material crewdzschool_Color_D02
+material crewdzschool_Color_007
 {
    technique
    {
       pass
       {
-         diffuse 1.0 0.8 0.196078431372549 1.0
-         ambient 1.0 0.8 0.196078431372549 1.0
-      }
-   }
-}
-material crewdzschool_Color_001
-{
-   technique
-   {
-      pass
-      {
-         diffuse 0.886274509803922 0.886274509803922 0.886274509803922 1.0
-         ambient 0.886274509803922 0.886274509803922 0.886274509803922 1.0
-      }
-   }
-}
-material crewdzschool_Color_002
-{
-   technique
-   {
-      pass
-      {
-         diffuse 0.776470588235294 0.776470588235294 0.776470588235294 1.0
-         ambient 0.776470588235294 0.776470588235294 0.776470588235294 1.0
+         diffuse 0.227450980392157 0.227450980392157 0.227450980392157 1.0
+         ambient 0.227450980392157 0.227450980392157 0.227450980392157 1.0
       }
    }
 }
@@ -344,36 +232,14 @@ material crewdzschool_Color_003
       }
    }
 }
-material crewdzschool_Color_004
+material crewdzschool_Color_001
 {
    technique
    {
       pass
       {
-         diffuse 0.556862745098039 0.556862745098039 0.556862745098039 1.0
-         ambient 0.556862745098039 0.556862745098039 0.556862745098039 1.0
-      }
-   }
-}
-material crewdzschool_Color_009
-{
-   technique
-   {
-      pass
-      {
-         diffuse 0.0 0.0 0.0 1.0
-         ambient 0.0 0.0 0.0 1.0
-      }
-   }
-}
-material crewdzschool_Color_A01
-{
-   technique
-   {
-      pass
-      {
-         diffuse 1.0 0.0 0.0 1.0
-         ambient 1.0 0.0 0.0 1.0
+         diffuse 0.886274509803922 0.886274509803922 0.886274509803922 1.0
+         ambient 0.886274509803922 0.886274509803922 0.886274509803922 1.0
       }
    }
 }
