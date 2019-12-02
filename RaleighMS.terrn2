@@ -1,6 +1,6 @@
 [General]
-Name = NeoQueretaro
-GeometryConfig = NeoQueretaro.otc
+Name = RaleighMS
+GeometryConfig = RaleighMS.otc
 Water=0
 WaterLine=8.5
 AmbientColor = 0.93, 0.86, 0.76
@@ -19,4 +19,4 @@ converting = Klink
 
  
 [Objects]
-NeoQueretaro.tobj=
+RaleighMS.tobj=
